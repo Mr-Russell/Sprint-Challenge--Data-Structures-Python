@@ -43,7 +43,7 @@ class BSTNode:
     # Return True if the tree contains the value
     # False if it does not
     def contains(self, target):
-        if target is self.value:
+        if target == self.value:
             return True
         elif target < self.value:
             if self.left is None:
